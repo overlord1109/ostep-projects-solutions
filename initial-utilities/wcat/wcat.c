@@ -13,6 +13,7 @@ int main(int argc, char** argv) {
 		char str[512];
 		while(fgets(str, sizeof(str), fd) != NULL)
 			printf("%s", str);
+		fclose(fd);
 	}
 	exit(0);
 
