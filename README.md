@@ -1,3 +1,5 @@
+These are my solutions for projects for "[CS-537] Intro to OS course" offered at WISC (online and free!)
+
 
 # Projects for an Operating Systems Class
 
