@@ -24,7 +24,6 @@ int main(int argc, char** argv) {
 					run_length++;
 				}
 				else {
-					//printf("%d%c", run_length, current_char);
 					fwrite(&run_length, sizeof(int), 1, stdout);
 					fwrite(&current_char, sizeof(char), 1, stdout);
 					current_char = buffer[i];
